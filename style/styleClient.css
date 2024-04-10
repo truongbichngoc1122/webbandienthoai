@@ -1,0 +1,299 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style: none;
+}
+body {
+	width: 100%;
+	height: 100vh;
+	padding: 0 40px;
+	background-color: #ffffff;
+}
+
+.header {
+	width: 100%;
+	height: 240px;
+	padding: 20px 20px 0px 20px;
+
+}
+
+.navbar {
+	background-color: grey;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	
+}
+a:hover {
+	text-decoration: none;
+}
+
+.navbar_item {
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar_item .navbar_item-li p {
+	margin: 0;
+	font-size: 18px;
+	color: red;
+}
+
+.navbar_item-li {
+	list-style: none;
+}
+
+.navbar_item-link {
+	color: black;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.navbar_item-link:hover {
+	color: red;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar_item-link i{
+	padding-right: 6px;
+}
+
+.header_container {
+	margin-top: 40px;
+	display: flex;
+	align-items: center;
+	padding: 0 20px 0px 20px;
+
+}
+
+.header_container-logo {
+	width: 228px;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a6a830;
+    font-size: 22px;
+    margin-right: 140px;
+}
+.header_container-logo img {
+	width: 50px;
+	height: 50px;
+	margin-right: 14px;
+}
+
+
+
+
+.header_container-cart {
+	display: block;
+	width: 80px;
+	margin-left: 200px;
+}
+
+.header_container-cart .cart {
+	display: block;
+    width: 80px;
+    margin-left: 0px;
+    margin-right: 200px;
+    font-size: 18px;
+    color: #a6a830;
+}
+.header_container-cart i {
+	font-size: 26px;
+	color: white;
+	cursor: pointer;
+}
+
+/* main */
+.main {
+	display: flex;
+	height: auto;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+}
+.main-left {
+	width: 20%;
+	height: 100%;
+	padding: 20px;
+	
+
+}
+
+
+.left-category {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #a6a830;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.left-category h1 {
+	font-size: 23px;
+    margin: 0 0 0 10px;
+	color: #a6a830;
+}
+
+.left_list {
+	padding-left: 50px;
+}
+
+.left_list-link {
+	display: block;
+    padding: 2px 0px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    color: #a6a830;
+}
+
+.left_list-link:hover {
+	color: red;
+	padding-left: 20px;
+}
+
+.main-right {
+	margin-left: 0 10px 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+}
+
+.product-wrap {
+	width: 240px;
+	height: 380px;
+	margin: 0px 10px 10px 0px;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 6px;
+}
+
+.product-item {
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	color: black;
+}
+
+.product-item:hover {
+	color: black;
+}
+
+.product-item-img {
+	transform: scale(1);
+}
+
+
+.product-item-img {
+	width: 100%;
+	height: 60%;
+}
+
+.product-item-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	background-color: transparent;
+}
+
+.product-content {
+	padding: 0 16px;
+}
+
+.product-content h1 {
+	padding-top: 10px;
+	font-size: 24px;
+}
+
+.product-content p {
+	padding-top: 6px;
+	margin-bottom: 4px;
+}
+
+.btn_buy {
+	border: none;
+    outline: none;
+    background-color: #218838;
+    padding: 4px 10px;
+    border-radius: 6px;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* chi tiết sản phẩm */
+
+.main_detail-left {
+	width: 50%;
+	padding: 12px;
+    display: flex;
+}
+
+.main_detail-left img{
+	width: 58%;
+    margin: auto;
+}
+
+
+.main_detail-right {
+	padding-top: 40px;
+}
+
+.main_detail-right .detail-name {
+	font-size: 30px;
+	color: #000000;
+}
+
+.main_detail-right .detail-price {
+	margin: 8px 0px 20px;
+	color: #C24242;
+}
+
+.main_detail-right a{
+	padding: 8px;
+    background-color: #28a745;
+    margin: 0px;
+    outline-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.wrap_btn {
+	display: flex;
+}
+
+
+/* footer */
+
+.footer {
+	margin-top: 30px; 
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.footer li {
+	padding: 6px 0;
+}
+
+.footer li a {
+	color: black;
+	transition: 0.3s ease;
+}
+.footer li i {
+	padding-right: 6px;
+}
+
+
+.footer li a:hover {
+	color: #007bff;
+}
